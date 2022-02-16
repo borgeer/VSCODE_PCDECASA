@@ -10,3 +10,5 @@ for n in range(0,4):
 
 for numero in  nomes:
     print (numero)
+
+
