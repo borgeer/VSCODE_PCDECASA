@@ -87,15 +87,22 @@ ptint (lista)
 #vefiricar tamanho 
 print(len(lista))
 
+
+
+#converter lista em string 
+
+lista = ['ariel', 'borger']
+
+#Abaixo pega a lista, coloca espaços e tranforma em uma string 
+lista7 =' '.join(lista)
+print (lista7)
+
+
+
+
+
+
 """
-
- 
-
-
-
-
-
-
 
 
 
