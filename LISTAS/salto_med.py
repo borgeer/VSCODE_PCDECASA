@@ -25,4 +25,4 @@ else:
     if opcao==1:
         nome=input("Qual no mdo atleta")
     else:
-        print ("Obeigado")
+        print ("Obrigado")
