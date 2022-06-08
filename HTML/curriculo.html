@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="CURRICULO ARIEL BORGER">
     <title>Curriculo Ariel Borger</title>
+    <!--APLICAR EM TODAS AS TAG-->
+    <link type="text/css" rel="stylesheet" href="estilo.css"> <!--PUXAR UM ARQUIVO CSS PARA O HTML-->
+
+    <style>
+
+        h2{color: blue;}  
+
+    </style><!--DIFINIR ESILO INTERNAMENTE-->
 </head>
 <body>
 
 <img src="FOTOS\FOTODEPERFIL.jpg" width="300" height="300" alt="Ariel Borger" >
 
-    <h1><i>Ariel Borger Cezimbra  &trade; &dollar; &pi; <!-- exemplos de como colocar caracteres no HTML -->  </i></h1>
+    <h1 style="color:aqua;"><i>Ariel Borger Cezimbra  &trade; &dollar; &pi; <!-- exemplos de como colocar caracteres no HTML -->  </i></h1>
 
         <h2>Contato</h2>
         <p> ariel.cezimbra@outlook.com    <br>(51)980157928 </p>
@@ -20,14 +28,13 @@
             <!--COLOCAR HIPERLINKS EXTERNOS-->
             <p>  borger (LinkedIn)</p>
         
-        <h2>ENDERÇO</h2>
-            <pre> 
-            RUA MARIA MAJOJO, 72
-            Rui Barbosa
-            Arroio do Meio 
-            </pre>
+        <p class="endereco">
+         
+            RUA MARIA MAJOJO, n° 72 <br>
+            Rui Barbosa, Arroio do Meio 
         
-        <h2>Experiência</h2>
+        </p>
+        <h2 class="endereco"> Experiência</h2>  <!--RESPIETA A CLASS DO CSS-->
         <ul>
             <li>Atual</li>
                 <ol start ="2" reversed >   <!--LISTA ORDENADA(1,2,3,4) USA O OL E LI NA FRASE COM START COMEÇA DO NUMERO QUE COLOCAR-->
@@ -55,7 +62,9 @@
         <dd> Bacharelado em Engenharia, Engenharia de Computação · (2018 - 2024)</dd>
     </dl>
 
-    <a href="FOTOS\G0425923.JPG" target="_blank">FOTO 1</a> <!-- NAVGEDAR QUANDO ESTA DENTRO DO PROJETO-->
+    <a href="FOTOS\G0425923.JPG" target="_blank">FOTO 1</a> <!-- NAVGEVAR QUANDO ESTA DENTRO DO PROJETO-->
 
+
+    <a href="INICIO.html">INICIO</a>
 </body>
 </html></html>
