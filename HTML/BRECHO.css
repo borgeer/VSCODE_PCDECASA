@@ -1,0 +1,12 @@
+.opçoes ul{
+    color: grey;
+    background: yellow;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+.opçoes ul li{
+    list-style-type: none;
+    padding-right: 10px;
+    margin: 0;
+}
