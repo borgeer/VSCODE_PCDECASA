@@ -5,11 +5,11 @@ Difinindo funçoes
 """
 
 
-#exemplo de utilizaçao
+# exemplo de utilizaçao
 
 #cores= ['verde', 'azul', 'branco']
 
-#utilizando a funçao integrada (built in) do Python print()
+# utilizando a funçao integrada (built in) do Python print()
 
 #print (cores)
 
@@ -29,11 +29,11 @@ OBS: Veja que para definir uma funçao, utilizamos uma palavra reservada "def", 
 """
 
 
-
 def diz_oi():
-    print ('oi')
+    print('oi')
 
-#chamada de execuçao
+
+# chamada de execuçao
 diz_oi()
 
 """
@@ -44,12 +44,9 @@ veja que nossa funçao só executa uma tarefa ou seja a unica coisa que ela faz 
 """
 
 
-
-
-
 def cantar_parabens():
-    print ("parabens pra voce")
-    print ("muitas feli")
+    print("parabens pra voce")
+    print("muitas feli")
 
-cantar=4 +9
-cantar_parabens() 
+
+cantar_parabens()
